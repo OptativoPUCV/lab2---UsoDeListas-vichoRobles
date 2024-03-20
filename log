@@ -119,3 +119,16 @@ exercises.c:150:21: error: expected ‘(’ before ‘else’
 cc1: all warnings being treated as errors
 Compilation failed
 bfeee29
+Wed 20 Mar 2024 05:41:57 PM UTC: 
+ exercises.c | 25 +++++++++++++------------
+ 1 file changed, 13 insertions(+), 12 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:128:17: error: implicit declaration of function ‘createStack’; did you mean ‘create_stack’? [-Werror=implicit-function-declaration]
+  128 |   Stack *pila = createStack();
+      |                 ^~~~~~~~~~~
+      |                 create_stack
+exercises.c:128:17: error: initialization of ‘Stack *’ {aka ‘List *’} from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+cc1: all warnings being treated as errors
+Compilation failed
+57dbfc7
