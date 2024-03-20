@@ -115,7 +115,7 @@ void copia_pila(Stack *P1, Stack *P2) {
       push(P1, dato);
     }
 
-  destroy_stack(P3);
+
   
   
 }
