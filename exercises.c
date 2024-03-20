@@ -113,10 +113,7 @@ void copia_pila(Stack *P1, Stack *P2) {
     {
       push(P2, dato);
     }
-  while ((dato = pop(P3)) != NULL)
-    {
-      push(P1, dato);
-    }
+
   
   
 }
