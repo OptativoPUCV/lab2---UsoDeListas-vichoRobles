@@ -45,3 +45,9 @@ exercises.c:116:3: error: implicit declaration of function ‘destroy_stack’ [
 cc1: all warnings being treated as errors
 Compilation failed
 a681b3b
+Wed 20 Mar 2024 05:13:07 PM UTC: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+ tests:  3|2
+total_score: 40/70
+2e83d73
